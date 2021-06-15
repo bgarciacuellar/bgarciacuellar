@@ -261,7 +261,7 @@ img{
 } 
 
 .home__circle{
-    width: 250px;
+    width:300px;
     fill: var(--first-color);
 }
 
@@ -284,8 +284,33 @@ img{
     margin-bottom: var(--mb-0-75);
 }
 
+.home__description{
+    margin-bottom: var(--mb-2);
+}
 
+/* .home__scroll{
+     display: none; 
+} */
 
+.home__scroll-button{
+    color: var(--first-color);
+    transition: .5s;
+}
+
+.home__scroll-button:hover{
+    transform: translateY(.25rem);
+}
+
+.home__scroll-mouse{
+    font-size: 2rem;
+}
+
+.home__scroll-name{
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    margin-right: var(--mb-0-25);
+}
 /*==================== BUTTONS ====================*/
 
 
