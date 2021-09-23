@@ -159,7 +159,8 @@ img{
 
 }
 
-.nav__logo, .nav__toggle{
+.nav__logo, 
+.nav__toggle{
     color: var(--title-color);
     font-weight: var(--font-medium);
     cursor: pointer;
@@ -183,7 +184,7 @@ img{
        padding: 2rem 1.5rem 4rem;
        box-shadow: 0 -1px 4px rgba(0,0,0,.15);
        border-radius: 1.5rem 1.5rem 0 0;
-       transition: .5s;
+       transition: .3s;
 
     }
 }
@@ -241,7 +242,7 @@ img{
 
 .home__content{
     grid-template-columns: .5fr 3fr;
-    padding-top: 2rem;
+    padding-top: 3.5rem;
     align-items: center;
 }
 
@@ -261,7 +262,7 @@ img{
 } 
 
 .home__circle{
-    width:300px;
+    width:270px;
     fill: var(--first-color);
 }
 
@@ -478,7 +479,7 @@ img{
     display: flex;
     justify-content: space-evenly;
     margin-bottom: var(--mb-2);
-}
+} 
 
 .qualification__button{
     font-size: var(--h3-font-size);
