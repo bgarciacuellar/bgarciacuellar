@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
     <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -61,7 +61,7 @@
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link">
+                        <a href="#portfolio" class="nav__link">
                             <i class="uil uil-archive nav__icon"></i> Portafolio
                         </a>
                     </li>
@@ -81,7 +81,7 @@
 
             <div class="nav__btns">
                 <div class="nav__toggle" id="nav-toggle">
-                    <i class="uil uil-apps"></i>
+                    <i class="uil uil-bars"></i>
                 </div>
             </div>
         </nav>
@@ -722,13 +722,78 @@
 
         <!--==================== PORTFOLIO ====================-->
         <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portafolio</h2>
+            <span class="section__subtitle">Most recent work</span>
 
+            <div class="portfolio__container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!--==================== PORTFOLIO 1 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/portfolio2.jpg" alt="" class="portfolio__img">
 
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Modern website</h3>
+                            <p class="portfolio__description"> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Corporis, ratione. Harum accusamus dolorem totam quibusdam alias officiis assumenda
+
+                                Qui,
+                                at?</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Detalle del proyecto
+                                <i class="uil uil-browser button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 2 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Modern website</h3>
+                            <p class="portfolio__description"> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Corporis, ratione. Harum accusamus dolorem totam quibusdam alias officiis assumenda
+                                Qui,
+                                at?</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Detalle del proyecto
+                                <i class="uil uil-browser button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 3 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="/assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Modern website</h3>
+                            <p class="portfolio__description"> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Corporis, ratione. Harum accusamus dolorem totam quibusdam alias officiis assumenda
+                                asperiores voluptatem sed, facere nemo reprehenderit id dignissimos architecto minima.
+                                Qui,
+                                at?</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Detalle del proyecto
+                                <i class="uil uil-browser button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--==================== Arrows and pagination ====================-->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-pagination"></div>
+
+            </div>
         </section>
 
         <!--==================== PROJECT IN MIND ====================-->
         <section class="project section">
-
 
         </section>
 
@@ -755,7 +820,7 @@
 
 
     <!--==================== SWIPER JS ====================-->
-    <script src=""></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="/assets/js/main.js"></script>
