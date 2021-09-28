@@ -332,6 +332,15 @@ img{
     transition: .5s;
 }
 
+.button-white{
+    background-color: #fff;
+    color: var(--first-color);
+}
+
+.button-white:hover{
+    background-color: #fff;
+}
+
 .button--flex{
     display: inline-flex;
     align-items: center;
@@ -723,7 +732,24 @@ img{
     outline: none;
 }
 /*==================== PROJECT IN MIND ====================*/
+.project{
+    text-align: center;
+}
 
+.project__bg{
+    background-color: var(--first-color);
+    padding-top: var(--mb-0-75);
+}
+
+.project__title,
+.project__description{
+    color: #fff;
+}
+
+.project__img{
+    width: 232px;
+    justify-self: center;
+}
 
 /*==================== TESTIMONIAL ====================*/
 
