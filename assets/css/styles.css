@@ -230,9 +230,14 @@ img{
 }
 
 /* Active link */
-
+.active-link{
+    color: red;
+}
 
 /* Change background header */
+.scroll-header{
+    box-shadow: 0 -1px 4px rgb(0, 0, 0, .15);
+}
 
 
 /*==================== HOME ====================*/
