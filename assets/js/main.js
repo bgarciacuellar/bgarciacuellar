@@ -141,7 +141,7 @@ async function handleSubmit(event) {
         'Accept': 'application/json'
     }
   }).then(response => {
-    status.innerHTML = "🔔 ¡Gracias! Me pondré en contacto. 🧑🏻‍💻";
+    status.innerHTML = "¡Gracias! Me pondré en contacto. 🧑🏻‍💻";
     form.reset()
   }).catch(error => {
     status.innerHTML = "Oops! Hubo un problema al enviar su formulario"
