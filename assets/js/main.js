@@ -126,6 +126,29 @@ let swiperTestimonial = new Swiper('.testimonial__container', {
 })
 
 
+/*==================== CONTACT FORM  ====================*/
+
+let form = document.getElementById("my-form");
+    
+async function handleSubmit(event) {
+  event.preventDefault();
+  let status = document.getElementById("my-form-status");
+  let data = new FormData(event.target);
+  fetch(event.target.action, {
+    method: form.method,
+    body: data,
+    headers: {
+        'Accept': 'application/json'
+    }
+  }).then(response => {
+    status.innerHTML = "🔔 ¡Gracias! Me pondré en contacto. 🧑🏻‍💻";
+    form.reset()
+  }).catch(error => {
+    status.innerHTML = "Oops! Hubo un problema al enviar su formulario"
+  });
+}
+form.addEventListener("submit", handleSubmit)
+
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')
 

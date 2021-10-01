@@ -374,6 +374,13 @@ img {
   align-items: center;
 }
 
+.button--form{
+  background-color: var(--input-color);
+  color: var(--first-color);
+  border-radius: .75rem;
+  padding: 1rem;
+}
+
 .button--small {
   padding: .75rem 1rem;
 }

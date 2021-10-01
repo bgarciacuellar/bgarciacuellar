@@ -15,6 +15,18 @@
         gtag('config', 'G-WBL970LPCX');
     </script>
 
+    1
+    <!--==================== FAVICON ====================-->
+    <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicon.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon.png">
+
     <!--==================== UNICONS ====================-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
 
@@ -849,32 +861,42 @@
                     </div>
                 </div>
 
-                <form action="" class="contact__form grid">
+                <form id="my-form" action="https://formspree.io/f/mvodyaoj" method="POST" class="contact__form grid">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
-                            <label for="" class="contact__label">Name</label>
-                            <input type="text" class="contact__input">
+                            <label for="full-name" class="contact__label">Nombre completo</label>
+
+                            <input type="text" name="name" id="full-name" placeholder="First and Last" required=""
+                                class="contact__input">
                         </div>
                         <div class="contact__content">
-                            <label for="" class="contact__label">Email</label>
-                            <input type="email" class="contact__input">
+                            <label for="email-address" class="contact__label">Email</label>
+                            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld"
+                                required="" class="contact__input">
                         </div>
                     </div>
                     <div class="contact__content">
-                        <label for="" class="contact__label">Project</label>
-                        <input type="text" class="contact__input">
+                        <label for="telephone" class="contact__label">Número de teléfono</label>
+                        <input type="telephone" name="telephone" id="telephone" placeholder="(555) 555-5555" required=""
+                            class="contact__input">
+
                     </div>
                     <div class="contact__content">
-                        <label for="" class="contact__label">Message</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <label for="message" class="contact__label">Mensaje</label>
+                        <textarea rows="6" name="messageName" id="messageID"
+                            placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus."
+                            required="" cols="0" rows="7" class="contact__input"></textarea>
+                        <input type="hidden" name="_subject" id="email-subject" value="Complaint Form Submission">
                     </div>
 
                     <div>
-                        <a href="#" class="button button--flex">
+                        <button id="my-form-button" class="button button--flex">
                             Send Message
                             <i class="uil uil-message button__icon"></i>
-                        </a>
+
+                        </button>
                     </div>
+                    <p id="my-form-status" class="button--form"></p>
                 </form>
             </div>
 
