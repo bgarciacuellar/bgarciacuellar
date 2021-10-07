@@ -496,6 +496,7 @@ img {
 .skills__name {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
+
 }
 
 .skills__bar, .skills__percentage {
