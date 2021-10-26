@@ -213,3 +213,13 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+/*==================== DATE TIMER ====================*/
+
+let now = moment();
+let birth = moment('September 12, 1998');
+let daysoflife = now.diff(birth, 'days');
+let yearsoflife = now.diff(birth, 'years');
+
+document.getElementById('result-days').innerText = daysoflife;
+document.getElementById('result-years').innerText = yearsoflife;
