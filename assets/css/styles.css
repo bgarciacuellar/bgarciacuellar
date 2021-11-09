@@ -9,10 +9,10 @@
   /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
   /* HSL color mode */
   --first-color: #0a1925;
-  --first-color-second: #368c83;
-  --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-  --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
-  --title-color: hsl(var(--hue-color), 8%, 15%);
+  --first-color-second: #234158;
+  --first-color-alt: #368c83;
+  --first-color-lighter: #bbcedc;
+  --title-color: #0a1925;
   --text-color: hsl(var(--hue-color), 8%, 45%);
   --text-color-light: hsl(var(--hue-color), 8%, 65%);
   --input-color: hsl(var(--hue-color), 70%, 96%);
@@ -62,14 +62,15 @@
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
   /* HSL color mode */
-  --first-color-second: #368c83;
-  --title-color: Blue;
+  --first-color-second: red;
+  --first-color-alt: #368c83;
+  --title-color: #ffffff;
   --text-color: green;
   --input-color: pink;
   --body-color: #0a1925;
   --container-color: #0a1925;
-  --scroll-bar-color: yellow;
-  --scroll-thumb-color: orange;
+  --scroll-bar-color: #0a1925;
+  --scroll-thumb-color: #234158;
 }
 
 /*========== Button Dark/Light ==========*/
@@ -293,7 +294,7 @@ img {
 
 .home__blob {
   width: 200px;
-  fill: var(--first-color);
+  fill: var(--first-color-second);
 }
 
 .home__blob-img {
