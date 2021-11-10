@@ -16,7 +16,7 @@
   --text-color: #6a767c;
   --text-color-light: hsl(var(--hue-color), 8%, 65%);
   --input-color: #0a1925;
-  --icon: #0a1925;
+  --icon: #234158;
   --button: #0a1925;
   --body-color: #ffffff;
   --container-color: #ffffff;
@@ -172,7 +172,7 @@ img {
 
 .header {
   width: 100%;
-  position: fixed;
+  position: sticky;
   bottom: 0;
   left: 0;
   z-index: var(--z-fixed);
@@ -248,7 +248,7 @@ img {
   bottom: .5rem;
   font-size: 1.5rem;
   cursor: pointer;
-  color: var(--first-color);
+  color: var(--first-color-second);
 }
 
 .nav__close:hover {
@@ -329,7 +329,7 @@ img {
 }
 
 .home__scroll-button {
-  color: var(--first-color);
+  color: var( --first-color-second);
   transition: .3s;
 }
 
@@ -463,7 +463,7 @@ img {
 
 .skills__icon, .skills__arrow {
   font-size: 2rem;
-  color: var(--first-color);
+  color: var(--icon);
 }
 
 .skills__icon {
@@ -481,7 +481,7 @@ img {
 
 .skills__subtitle {
   font-size: var(--smaller-font-size);
-  color: var(--text-color-light);
+  color: var(--first-color-second);
 }
 
 .skills__arrow {
@@ -517,7 +517,7 @@ img {
 
 .skills__percentage {
   display: block;
-  background-color: var(--first-color);
+  background-color: var(--first-color-second);
 }
 
 .skills__html {
@@ -592,7 +592,7 @@ img {
 }
 
 .qualification__button:hover {
-  color: var(--first-color);
+  color: var(--first-color-second);
 }
 
 .qualification__icon {
@@ -626,7 +626,7 @@ img {
   display: inline-block;
   width: 13px;
   height: 13px;
-  background-color: var(--first-color);
+  background-color: var(--text-color);
   border-radius: 50%;
 }
 
@@ -634,7 +634,7 @@ img {
   display: block;
   width: 1px;
   height: 100%;
-  background-color: var(--first-color);
+  background-color: var(--text-color);
   transform: translate(6px, -7px);
 }
 
@@ -646,8 +646,9 @@ img {
   display: block;
 }
 
-.qualification__button.qualification__active {
-  color: var(--first-color);
+.qualification__button
+.qualification__active {
+  color: var( --first-color-second);
 }
 
 /*==================== SERVICES ====================*/
