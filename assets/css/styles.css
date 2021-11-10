@@ -13,11 +13,13 @@
   --first-color-alt: #368c83;
   --first-color-lighter: #bbcedc;
   --title-color: #0a1925;
-  --text-color: hsl(var(--hue-color), 8%, 45%);
+  --text-color: #6a767c;
   --text-color-light: hsl(var(--hue-color), 8%, 65%);
-  --input-color: hsl(var(--hue-color), 70%, 96%);
-  --body-color: #FFF;;
-  --container-color: #FFF;
+  --input-color: #0a1925;
+  --icon: #0a1925;
+  --button: #0a1925;
+  --body-color: #ffffff;
+  --container-color: #ffffff;
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
   /*========== Font and typography ==========*/
@@ -62,11 +64,12 @@
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
   /* HSL color mode */
-  --first-color-second: red;
-  --first-color-alt: #368c83;
+  --first-color-second:#368c83;
   --title-color: #ffffff;
-  --text-color: green;
-  --input-color: pink;
+  --text-color: #ffffff;
+  --input-color: #368c83;
+  --icon: #ffffff;
+  --button: #368c83;
   --body-color: #0a1925;
   --container-color: #0a1925;
   --scroll-bar-color: #0a1925;
@@ -87,7 +90,7 @@ body.dark-theme {
 }
 
 .change-theme:hover {
-  color: var(--first-color);
+  color: var(--icon);
 }
 
 /*==================== BASE ====================*/
@@ -148,6 +151,7 @@ img {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-3);
+  color: var(--first-color-second);
 }
 
 .section__title, .section__subtitle {
@@ -190,7 +194,7 @@ img {
 }
 
 .nav__logo:hover {
-  color: var(--first-color);
+  color: var(--first-color-alt);
 }
 
 .nav__toggle {
@@ -231,7 +235,7 @@ img {
 }
 
 .nav__link:hover {
-  color: var(--first-color);
+  color: var(--first-color-second);
 }
 
 .nav__icon {
@@ -258,7 +262,7 @@ img {
 
 /* Active link */
 .active-link {
-  color: var(--first-color);
+  color: var(--first-color-second);
 }
 
 /* Change background header */
@@ -285,7 +289,7 @@ img {
 
 .home__social-icon {
   font-size: 1.25rem;
-  color: var(--first-color);
+  color: var(--icon);
 }
 
 .home__social-icon:hover {
@@ -293,7 +297,7 @@ img {
 }
 
 .home__blob {
-  width: 200px;
+  width: 300px;
   fill: var(--first-color-second);
 }
 
@@ -351,11 +355,12 @@ img {
 /*========== BUTTONS ==========*/
 .button {
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: var(--button);
   color: #FFF;
   padding: 1rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
+  
 }
 
 .button:hover {
@@ -906,7 +911,7 @@ img {
 
 .contact__label {
   font-size: var(--smaller-font-size);
-  color: var(--title-color);
+  color: var(--text-color);
 }
 
 .contact__input {
@@ -918,6 +923,10 @@ img {
   border: none;
   outline: none;
   padding: .25rem .5rem .5rem 0;
+}
+
+::placeholder { 
+  color:var(--body-color); 
 }
 
 /*==================== FOOTER ====================*/
@@ -1234,7 +1243,7 @@ img {
     padding: 0;
   }
   .home__blob {
-    width: 320px;
+    width: 370px;
   }
   .home__social {
     transform: translateX(-6rem);
