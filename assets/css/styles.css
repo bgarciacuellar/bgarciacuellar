@@ -402,7 +402,7 @@ img {
 .button--link {
   padding: 0;
   background-color: transparent;
-  color: var(--first-color);
+  color: var(--first-color-second);
 }
 
 .button--link:hover {
@@ -662,7 +662,7 @@ img {
   background-color: var(--container-color);
   padding: 3.5rem .5rem 1.25rem 1.5rem;
   border-radius: .25rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 4px rgb(126 126 126 / 15%);
   transition: .3s;
   overflow: hidden;
 }
@@ -674,7 +674,7 @@ img {
 .services__icon {
   display: block;
   font-size: 1.5rem;
-  color: var(--first-color);
+  color: var(--first-color-second);
   margin-bottom: var(--mb-1);
 }
 
@@ -736,7 +736,7 @@ img {
   top: 1rem;
   right: 1rem;
   font-size: 1.5rem;
-  color: var(--first-color);
+  color: var(--first-color-second);
   cursor: pointer;
 }
 
@@ -786,7 +786,7 @@ img {
 
 .swiper-portfolio-icon {
   font-size: 2rem;
-  color: var(--first-color);
+  color: var(--first-color-second);
 }
 
 .swiper-button-prev {
@@ -899,9 +899,9 @@ img {
   font-weight: var(--font-medium);
 }
 
-.contact__subtitle {
+.contact__subtitle a {
   font-size: var(--small-font-size);
-  color: var(--text-color-light);
+  color: var(--first-color-second);
 }
 
 .contact__content {
@@ -1213,7 +1213,7 @@ img {
     border-radius: 1rem;
     padding: 3rem 2.5rem 0;
     grid-template-columns: 1fr max-content;
-    column-gap: 3rem;
+    
   }
   .project__data {
     padding-top: .8rem;
