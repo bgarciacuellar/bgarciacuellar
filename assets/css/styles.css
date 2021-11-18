@@ -890,7 +890,7 @@ img {
 
 .contact__icon {
   font-size: 2rem;
-  color: var(--first-color);
+  color: var(--first-color-second);
   margin-right: var(--mb-0-75);
 }
 
@@ -943,33 +943,13 @@ img {
   padding: 2rem 0 3rem;
 }
 
-.footer__title {
-  font-size: var(--h1-font-size);
-  margin-bottom: var(--mb-0-25);
-}
 
-.footer__subtitle {
-  font-size: var(--small-font-size);
-}
 
-.footer__links {
-  display: flex;
-  flex-direction: column;
-  row-gap: 1.5rem;
-}
 
 .footer__link:hover {
   color: var(--first-color-lighter);
 }
 
-.footer__social {
-  font-size: 1.25rem;
-  margin-right: var(--mb-1-5);
-}
-
-.footer__social:hover {
-  color: var(--first-color-lighter);
-}
 
 .footer__copy {
   font-size: var(--smaller-font-size);
@@ -978,9 +958,6 @@ img {
   margin-top: var(--mb-3);
 }
 
-.footer__title, .footer__subtitle, .footer__link, .footer__social {
-  color: #FFF;
-}
 
 /*========== SCROLL UP ==========*/
 .scrollup {
@@ -1112,7 +1089,7 @@ img {
     margin: 0;
   }
   .section {
-    padding: 10rem 0 2rem;
+    padding: 7rem 0 2rem;
   }
   .section__subtitle {
     margin-bottom: 4rem;
@@ -1222,17 +1199,11 @@ img {
     grid-template-columns: repeat(3, 1fr);
   }
   .footer__bg {
-    padding: 3rem 0 3.5rem;
+    padding: 1rem;
   }
-  .footer__links {
-    flex-direction: row;
-    column-gap: 2rem;
-  }
-  .footer__socials {
-    justify-self: flex-end;
-  }
+
   .footer__copy {
-    margin-top: 4.5rem;
+    margin-top: 1rem;
   }
 }
 
