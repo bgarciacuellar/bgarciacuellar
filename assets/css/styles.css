@@ -412,7 +412,7 @@ img {
 
 /*==================== ABOUT ====================*/
 .about__img {
-  width: 200px;
+  width: 400px;
   border-radius: .5rem;
   justify-self: center;
   align-self: center;
@@ -1140,7 +1140,7 @@ img {
     column-gap: 5rem;
   }
   .about__img {
-    width: 350px;
+    width: 550px;
   }
   .about__description {
     text-align: initial;
