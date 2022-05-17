@@ -125,6 +125,17 @@ let swiperTestimonial = new Swiper('.testimonial__container', {
     }
 })
 
+/*==================== BLOG  ====================*/
+var animation = bodymovin.loadAnimation({
+    container: document.getElementById('project__animContainer'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'https://assets7.lottiefiles.com/packages/lf20_tno6cg2w.json' // lottie file path
+  })
+
+
+
 
 /*==================== CONTACT FORM  ====================*/
 
