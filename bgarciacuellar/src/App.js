@@ -902,7 +902,7 @@ function App() {
             </div>
           </div>
 
-          =============== SERVICES 2 ===============
+          {/* =============== SERVICES 2 =============== */}
           <div className="services__content">
             <div>
               <i className="uil uil-arrow services__icon"></i>
@@ -949,7 +949,7 @@ function App() {
             </div>
           </div>
 
-          -=============== SERVICES 3 ===============
+          {/* =============== SERVICES 3 =============== */}
           <div className="services__content">
             <div>
               <i className="uil uil-pen services__icon"></i>
@@ -1351,86 +1351,7 @@ function App() {
             </div>
           </div>
 
-          {/* <form
-            id="my-form"
-            action="https://formspree.io/f/mvodyaoj"
-            method="POST"
-            className="contact__form grid"
-          >
-            <div className="contact__inputs grid">
-              <div className="contact__content">
-                <label for="full-name" className="contact__label">Nombre *</label>
-
-                <input
-                  type="text"
-                  name="Nombre completo"
-                  id="full-name"
-                  placeholder="Nombre completo"
-                  required=""
-                  className="contact__input"
-                />
-              </div>
-
-              <div className="contact__content">
-                <label for="telephone" className="contact__label">Teléfono *</label>
-                <input
-                  type="text"
-                  name="Número de teléfono"
-                  id="telephone"
-                  placeholder="Número de teléfono"
-                  required=""
-                  className="contact__input"
-                />
-              </div>
-            </div>
-
-            <div className="contact__content">
-              <label for="email-address" className="contact__label">Email *</label>
-              <input
-                type="email"
-                name="Correo electronico"
-                id="email-address"
-                placeholder="Correo electronico"
-                required=""
-                className="contact__input"
-              />
-            </div>
-
-            <div className="contact__content">
-              <label for="message" className="contact__label">Mensaje *</label>
-              <textarea
-                rows="6"
-                name="Mensaje"
-                id="message"
-                placeholder="Mensaje"
-                required=""
-                cols="0"
-                rows="7"
-                className="contact__input"
-              ></textarea>
-              <input
-                type="hidden"
-                name="_subject"
-                id="email-subject"
-                value="Complaint Form Submission"
-              />
-            </div>
-
-            <div>
-              <button
-                id="my-form-button"
-                className="button button--flex"
-                style="
-                  font-family: 'Poppins' !important;
-                  cursor: pointer !important;
-                "
-              >
-                Enviar mensaje
-                <i className="uil uil-message button__icon"></i>
-              </button>
-            </div>
-            <p id="my-form-status"></p>
-          </form> */}
+           
         </div>
       </section>
     </main>
